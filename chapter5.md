@@ -134,7 +134,10 @@ TCP 的滑动窗口是动态的，我们可以想象成小学常见的一个数�
 ![tcps-receive-disorder.png](http://om6ayrafu.bkt.clouddn.com/post/understand-tcp-udp/686E3FC14C2DEF657C61ECBC16C9C954.png)
 
 如图中的 34、35 字节序，先收到了，接收窗口也不会移动。    
-因为有可能 32、33 字节序会出现丢包或者超时，这时就需要发送端重发报文段了。    
+因为有可能 32、33 字节序会出现丢包或者超时，这时就需要发送端重发报文段了。
+
+
+    
 
 # 参考
 [The TCP/IP Guide](http://www.tcpipguide.com/free/t_TCPSlidingWindowAcknowledgmentSystemForDataTranspo.htm)    
